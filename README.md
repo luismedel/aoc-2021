@@ -1,6 +1,6 @@
 # Advent of Code 2021
 
-Solutions for Advent of Code 2021 (https://adventofcode.com/)
+🇬🇧 Solutions for Advent of Code 2021 (https://adventofcode.com/)
 
 * All solutions are provided as is, in a very raw state.
 * There's no optimizartions.
@@ -10,7 +10,7 @@ Solutions for Advent of Code 2021 (https://adventofcode.com/)
 
 ---
 
-Resolución de problemas para el Advent of Code 2021 (https://adventofcode.com/)
+🇪🇸 Resolución de problemas para el Advent of Code 2021 (https://adventofcode.com/)
 
 * Todas las soluciones se incluyen tal cual se realizaron para resolver el problema.
 * No se ha invertido tiempo en optimizar la solución.
