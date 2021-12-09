@@ -103,31 +103,15 @@ function findLastWinner (boards, numbers)
 	return result;
 }
 
-try
-{
-	let text = fs.readFileSync ("input.txt", "utf8"),
-		lines = text.split ("\n");
+let text = fs.readFileSync ("input.txt", "utf8"),
+	lines = text.split ("\n");
 
-	let numbers = lines[0].split (",").map (n => parseInt (n, 10)),
-		boards = parseBoards (lines, 1);
-		
-	let winnerIndex = findLastWinner (boards, numbers);
-/*
-	for (let i = 0; i < boards.length; i++)
-	{
-		if (!boards[i].winner)
-			continue;
-		
-		console.log (`Index: ${i}`);
-		console.log (boards[i].values);
-	}
-*/
-	console.log (`Index: ${winnerIndex}`);
-	console.log (`Winning number: ${boards[winnerIndex].lastWinningNumber}`);
-	console.log (`Board score: ${boards[winnerIndex].score}`);
-	console.log (boards[winnerIndex].values);
-}
-catch (err)
-{
-	console.error (err);
-}
+let numbers = lines[0].split (",").map (n => parseInt (n, 10)),
+	boards = parseBoards (lines, 1);
+	
+let winnerIndex = findLastWinner (boards, numbers);
+
+console.log (`Index: ${winnerIndex}`);
+console.log (`Winning number: ${boards[winnerIndex].lastWinningNumber}`);
+console.log (`Board score: ${boards[winnerIndex].score}`);
+console.log (boards[winnerIndex].values);
