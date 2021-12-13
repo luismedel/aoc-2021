@@ -40,7 +40,7 @@ function print (points)
 	}
 	
 	for (let i = 0; i < points.length; i++)
-		put (points[i][0], points[i][1]);
+		put (points[i][1], points[i][0]);
 	
 	for (let j = 0; j < grid.length; j++)
 	{
