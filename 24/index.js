@@ -68,6 +68,7 @@ So, having in mind that each 'w' can only be 1..9:
 	- And input for step 13 must be 1..5
 
 SOLUTION TO PART 1: 91699394894995
+SOLUTION TO PART 2: 51147191161261
 
 --------------------------------------
 
